@@ -1,0 +1,189 @@
+/*****************************
+CSS reset
+*****************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  color:#fff;
+  vertical-align:baseline;
+  background:transparent;
+  text-decoration: none;
+}
+
+/*****************************
+home
+*****************************/
+@font-face {
+  font-family: MyriadPro;
+  font-style:  normal;
+  font-weight: 400;
+  src: url("../fonts/MyriadPro-Light.otf");
+}
+
+html{
+  
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  background: #3c3939 url("../images/background_13661.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-size: 1em;
+  color: #333;
+  width: 100%;
+  height: 100%;
+}
+
+#container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+#content{
+  width: 80%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  top: 20%;
+}
+
+#logo{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  font-size: 100px;
+  font-family: Times New Roman;
+  background-color: #d7000f;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+#welcome{
+  margin-top: 10%;
+  font-family: 'MyriadPro',sans-serif;
+  font-size: 58px;
+  color: #fff;
+}
+
+#avatar{
+  width: 30%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#avatar img{
+  width: 100%;
+  margin-bottom: 50%;
+}
+
+.main-nav{
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10%;
+}
+
+.nav-bar{
+  list-style: none;
+}
+
+.nav-bar li{
+  min-width: 100px;
+  margin: 0 5%;
+  padding: 10px;
+  display:inline-block;
+  color: #fff;
+  font-size: 1.5em;
+  font-family: Arial,sans-serif;
+  border: 3px solid #fff;
+  opacity: 0.4;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.nav-bar li:hover{
+  opacity: 1;
+}
+
+@media screen and (max-width: 1000px){
+
+}
+
+@media screen and (max-width: 800px){
+
+}
+
+@media screen and (max-width: 700px){
+  html{
+    overflow: scroll;
+  }
+
+  #content{
+      top: 10%;
+  }
+
+  #welcome{
+    font-size: 30px;
+  }
+
+  .nav-bar li{
+    min-width: 120px;
+    margin: 5% 0;
+    display:block;
+  }
+}
