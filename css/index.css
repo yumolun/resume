@@ -49,10 +49,13 @@ a {
   margin:0;
   padding:0;
   font-size:100%;
-  color:#fff;
   vertical-align:baseline;
   background:transparent;
   text-decoration: none;
+}
+
+a:link, a:visited{
+  color: #000;
 }
 
 /*****************************
@@ -61,103 +64,55 @@ home
 @font-face {
   font-family: MyriadPro;
   font-style:  normal;
-  font-weight: 400;
+  font-weight: 100;
   src: url("../fonts/MyriadPro-Light.otf");
 }
 
-html{
-  
+@font-face {
+  font-family: OpenSans;
+  font-style:  normal;
+  font-weight: 100;
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+
+.main-nav{
   width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  height: 34px;
+  font-size: 18px;
+  font-family: 'OpenSans',sans-serif;
+  border-bottom: 1px solid #000;
+  margin-bottom: 5%;
+  color: #000;
 }
 
-body {
-  background: #3c3939 url("../images/background_13661.jpg") no-repeat center center fixed;
-  background-size: cover;
-  font-size: 1em;
-  color: #333;
-  width: 100%;
-  height: 100%;
+.main-nav .first-link{
+  margin: 8px 0px 0px 20px;
+  float: left;
 }
 
-#container{
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-
-#content{
-  width: 80%;
-  position: relative;
-  text-align: center;
-  margin: 0 auto;
-  top: 20%;
-}
-
-#logo{
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  color: #fff;
-  font-size: 100px;
-  font-family: Times New Roman;
-  background-color: #d7000f;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  opacity: 0.9;
-}
-
-#welcome{
-  margin-top: 10%;
-  font-family: 'MyriadPro',sans-serif;
-  font-size: 58px;
-  color: #fff;
+.main-nav .link{
+  margin: 8px 20px 8px 0px;
+  float: right;
+  cursor: pointer;
 }
 
 #avatar{
-  width: 30%;
+  width: 20%;
   position: relative;
   margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #avatar img{
   width: 100%;
-  margin-bottom: 50%;
 }
 
-.main-nav{
-  width: 90%;
-  margin: 0 auto;
-  position: relative;
-  margin-top: 10%;
-}
-
-.nav-bar{
-  list-style: none;
-}
-
-.nav-bar li{
-  min-width: 100px;
-  margin: 0 5%;
-  padding: 10px;
-  display:inline-block;
-  color: #fff;
-  font-size: 1.5em;
-  font-family: Arial,sans-serif;
-  border: 3px solid #fff;
-  opacity: 0.4;
-  cursor: pointer;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-}
-
-.nav-bar li:hover{
-  opacity: 1;
+.page1 h1{
+  text-align: center;
+  font-size: 48px;
+  font-family: 'MyriadPro',sans-serif;
+  font-weight: 100;
 }
 
 @media screen and (max-width: 1000px){
@@ -169,21 +124,5 @@ body {
 }
 
 @media screen and (max-width: 700px){
-  html{
-    overflow: scroll;
-  }
-
-  #content{
-      top: 10%;
-  }
-
-  #welcome{
-    font-size: 30px;
-  }
-
-  .nav-bar li{
-    min-width: 120px;
-    margin: 5% 0;
-    display:block;
-  }
+  
 }
