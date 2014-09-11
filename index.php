@@ -90,7 +90,7 @@
   </div>   
   <nav class="main-nav">
       <a class="first-link" href="http://www.yumolun.com">Molen's</a>
-      <a class="link" onclick="moveTo('.main', 5);" >Contact</a>
+      <a class="link" onclick="moveTo('.main', 6);" >Contact</a>
       <a class="link" href="http://blog.yumolun.com">Blog</a>
   </nav>
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
