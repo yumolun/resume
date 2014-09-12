@@ -59,7 +59,7 @@
             <td class="right-col">Internship in CGI France, as an analyst developer
               <ul>
                 <li>Worked in the CRM service to design solutions based on the clients’ requirements</li>
-                <li>Developed, tested and maintained softwares by using Pivotal, Oracle SQL Developer, Microsoft SQL Server, C#, VB Script, PHP and JavaScript<br><br><br></li>
+                <li>Developed, tested and maintained softwares by using Pivotal, Oracle SQL Developer, Microsoft SQL Server, C#, VB Script, PHP and JavaScript<br><br><br><br></li>
               </ul>
             </td>    
           </tr>
