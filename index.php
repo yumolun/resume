@@ -94,7 +94,7 @@
             <td class="left-col">2014</td>
             <td class="right-col">Android application for taxi booking and sharing
               <ul>
-                <li>Taxi booking based on geolocatio, taxi fare sharing based on number of passengers and distance</li>
+                <li>Taxi booking based on geolocation, taxi fare sharing based on number of passengers and distance</li>
                 <li>Taxi booking and sharing algorithm design</li>
                 <li>Server side design and development by using PHP</li>
               </ul>
