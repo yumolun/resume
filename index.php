@@ -36,11 +36,11 @@
         <table>
           <tr>
             <td class="left-col">2014</td>
-            <td class="right-col">Master's degree in Engineering obtained in the department of Telecommunications at National Institute of Applied Sciences of Lyon in France (INSA de Lyon)</td>    
+            <td class="right-col">Master's degree in Engineering obtained in the department of Telecommunications at National Institute of Applied Sciences of Lyon in France (INSA de Lyon)<br><br></td>    
           </tr>
           <tr>
             <td class="left-col">2012</td>
-            <td class="right-col">Exchange student in the department of Communications and Networking at Aalto University in Helsinki, Finland</td>    
+            <td class="right-col">Exchange student in the department of Communications and Networking at Aalto University in Helsinki, Finland<br><br></td>    
           </tr>
           <tr>
             <td class="left-col">2011</td>
