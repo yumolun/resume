@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="This is yumolun's website.余默伦的个人简历"/>
+  <meta name="description" content="This is yumolun's resume.余默伦的个人简历"/>
   <meta name="keywords" content="yumolun,molen,molun yu,余默伦,resume"/>
   <title>Molen's Resume</title>
   <link rel="shortcut icon" href="favicon.ico">
@@ -78,6 +78,40 @@
     <section class="page4">
       <h2>Projects</h2>
       <hr>
+      <div class="content">
+        <table>
+          <tr>
+            <td class="left-col">2014</td>
+            <td class="right-col">Characterization of WSN for traffic flow control
+              <ul>
+                <li>Design of linear WSN</li>
+                <li>Connection establishment for unicast communication between sensors in Contiki OS</li>
+                <li>Design and analysis of a series of experiments</li>
+              </ul>
+            </td>    
+          </tr>
+          <tr>
+            <td class="left-col">2014</td>
+            <td class="right-col">Android application for taxi booking and sharing
+              <ul>
+                <li>Taxi booking based on geolocatio, taxi fare sharing based on number of passengers and distance</li>
+                <li>Taxi booking and sharing algorithm design</li>
+                <li>Server side design and development by using PHP</li>
+              </ul>
+            </td>    
+          </tr>
+          <tr>
+            <td class="left-col">2013</td>
+            <td class="right-col">Booking and payment system for laundries
+              <ul>
+                <li>Design of system and market analysis</li>
+                <li>Laundries map development by using Google Maps API</li>
+                <li>Website development by using J2EE, HTML, CSS and JavaScript</li>
+              </ul>
+            </td>    
+          </tr>
+        </table>
+      </div>
     </section>
     <section class="page5">
       <h2>Skills</h2>
@@ -91,7 +125,7 @@
   <nav class="main-nav">
       <a class="first-link" href="http://www.yumolun.com">Molen's</a>
       <a class="link" onclick="moveTo('.main', 6);" >Contact</a>
-      <a class="link" href="http://blog.yumolun.com">Blog</a>
+      <a class="link" href="http://blog.yumolun.com" target="_blank">Blog</a>
   </nav>
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="js/onepagescroll.js?version=<?=md5_file('js/onepagescroll.js')?>"></script>
