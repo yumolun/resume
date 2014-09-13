@@ -123,23 +123,23 @@ hr{
   background: #2980b9; 
 }
 
-.page2{
+.education{
   background: #27ae60; 
 }
 
-.page3{
+.pro-exp{
   background: #16a085; 
 }
 
-.page4{
+.projects{
   background: #3498db; 
 }
 
-.page5{
+.skills{
   background: #2ecc71; 
 }
 
-.page6{
+.contact{
   background: #1abc9c; 
 }
 
@@ -151,27 +151,18 @@ hr{
   font-weight: 100;
 }
 
-.page2 h2,.page3 h2,.page4 h2,.page5 h2,.page6 h2{
-  color: #fff;
-  padding: 4% 0 10px 10%;
-  font-family: 'MyriadPro', sans-serif;
-  font-size: 48px;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
-
 .content{
-  max-width: 1100px;
-  margin: 3% auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .content table{
-  width: 100%;
+  width: 80%;
   color: #fff;
   font-family: 'MyriadPro',sans-serif;
   font-size: 24px;
   font-weight: 100;
-  line-height: 40px;
+  line-height: 1.5em;
 }
 
 .content table .left-col{
@@ -185,17 +176,112 @@ hr{
   float: right;
   text-align: justify;
   padding: 0 5% 0 0;
-  margin-bottom: 20px;
 }
 
 .content table ul{
   margin-left: 20px;
   font-size: 20px;
   text-align: justify;
-  line-height: 30px;
+  line-height: 1.5em;
 }
 
-@media screen and (max-width: 1280px){
+.education h2,.pro-exp h2,.projects h2,.skills h2,.contact h2{
+  color: #fff;
+  padding: 4% 0 1% 10%;
+  font-family: 'MyriadPro', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.education table{
+  margin: 7% auto 0 auto;
+}
+
+.education .right-col{
+  margin-bottom: 10%;
+}
+
+.pro-exp table{
+  margin: 5% auto 0 auto;
+}
+
+.pro-exp .right-col{
+  margin-bottom: 9%;
+}
+
+.projects table{
+  margin: 2% auto 0 auto;
+}
+
+.projects .right-col{
+  margin-bottom: 2%;
+}
+
+.skills table{
+  margin: 2% auto 0 auto;
+}
+
+.skills .right-col{
+  margin-bottom: 2%;
+}
+
+.skills-details{
+  width: 80%;
+  margin: 3% auto;
+  text-align: center;
+}
+
+.grid{
+  color: #fff;
+  display: inline-block;
+  width: 26%;
+  margin:0 3% 3% 3%;
+  border: 2px solid #fff;
+  min-width: 290px;
+}
+
+.grid hr{
+  margin: 0 auto;
+}
+
+.grid h3{
+  padding: 5% 0 5% 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'MyriadPro';
+}
+
+.grid ul li{
+  padding: 5% 0 5% 0;
+  margin-left: 12%;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'MyriadPro';
+}
+
+.grid-col-3{
+  border: 2px solid #fff;
+  min-width: 290px;
+  color: #fff;
+  width: 93.5%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid-col-3 div{
+  padding: 1%;
+  font-size: 20px;
+  font-family: 'MyriadPro';
+  width: 20%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1920px){
+
+}
+
+@media screen and (max-width: 1366px){
 
 }
 
@@ -204,5 +290,5 @@ hr{
 }
 
 @media screen and (max-width: 640px){
-  
+
 }

@@ -29,18 +29,14 @@
       </div>
       <h1>Molun Yu</h1>
     </section>
-    <section class="page2">
-      <h2>Education</h2>
-      <hr>
+    <section class="education">
       <div class="content">
+        <h2>Education</h2>
+        <hr>
         <table>
           <tr>
             <td class="left-col">2014</td>
-            <td class="right-col">Master's degree in Engineering obtained in the department of Telecommunications at National Institute of Applied Sciences of Lyon in France (INSA de Lyon)<br><br></td>    
-          </tr>
-          <tr>
-            <td class="left-col">2012</td>
-            <td class="right-col">Exchange student in the department of Communications and Networking at Aalto University in Helsinki, Finland<br><br></td>    
+            <td class="right-col">Master's degree in Engineering obtained in the department of Telecommunications at National Institute of Applied Sciences of Lyon in France (INSA de Lyon)</td>    
           </tr>
           <tr>
             <td class="left-col">2011</td>
@@ -49,17 +45,17 @@
         </table>
       </div>
     </section>
-    <section class="page3">
-      <h2>Professional experience</h2>
-      <hr>
+    <section class="pro-exp">
       <div class="content">
+        <h2>Professional experience</h2>
+        <hr>
         <table>
           <tr>
             <td class="left-col">2013<br><span style="font-size:20px">Six months</span></td>
             <td class="right-col">Internship in CGI France, as an analyst developer
               <ul>
                 <li>Worked in the CRM service to design solutions based on the clients’ requirements</li>
-                <li>Developed, tested and maintained softwares by using Pivotal, Oracle SQL Developer, Microsoft SQL Server, C#, VB Script, PHP and JavaScript<br><br><br><br></li>
+                <li>Developed, tested and maintained softwares by using Pivotal, Oracle SQL Developer, Microsoft SQL Server, C#, VB Script, PHP and JavaScript</li>
               </ul>
             </td>    
           </tr>
@@ -75,10 +71,10 @@
         </table>
       </div>
     </section>
-    <section class="page4">
-      <h2>Projects</h2>
-      <hr>
+    <section class="projects">
       <div class="content">
+        <h2>Projects</h2>
+        <hr>
         <table>
           <tr>
             <td class="left-col">2014</td>
@@ -113,13 +109,89 @@
         </table>
       </div>
     </section>
-    <section class="page5">
-      <h2>Skills</h2>
-      <hr>
+    <section class="skills">
+      <div class="content">
+        <h2>Skills</h2>
+        <hr>
+        <div class="skills-details">
+          <div class="grid">
+            <h3>Computing</h3>
+            <hr>
+            <ul>
+              <li>HTML, CSS, JavaScript(jQuery)</li>
+              <li>C#, Java, J2EE, PHP</li>
+              <li>Oracle SQL Developer</li>
+              <li>Microsoft SQL Server</li>
+              <li>Windows, Linux</li>
+            </ul>
+          </div>
+          <div class="grid">
+            <h3>Networking</h3>
+            <hr>
+            <ul>
+              <li>BAN, LAN, MAN, WAN</li>
+              <li>Network security</li>
+              <li>Network application</li>
+              <li>Network performance</li>
+              <li>Network virtualization</li>
+            </ul>
+          </div>
+          <div class="grid">
+            <h3>Telecom</h3>
+            <hr>
+            <ul>
+              <li>Signal processing</li>
+              <li>Image processing</li>
+              <li>Mobile network</li>
+              <li>Radio communication systems</li>
+              <li>Telephony</li>
+            </ul>
+          </div>
+          <div class="grid-col-3">
+            <div>English, French, Chinese</div>
+            <div>Project management</div>
+          </div>
+        </div>
+        <!--<table>
+          <tr>
+            <td class="left-col">Computing</td>
+            <td class="right-col">
+              <ul>
+                <li>HTML, CSS, JavaScript, C#, Java, PHP</li>
+                <li>MySQL, Oracle SQL Developer, Microsoft SQL Server</li>
+                <li>Windows, Linux</li>
+              </ul>
+            </td>    
+          </tr>
+          <tr>
+            <td class="left-col">Networking and Telecommunications</td>
+            <td class="right-col">
+              <ul>
+                <li>BAN, LAN, MAN, WAN</li>
+                <li>WSN, DTN, Data center</li>
+                <li>Network virtualization</li>
+              </ul>
+            </td>    
+          </tr>
+          <tr>
+            <td class="left-col">Languages</td>
+            <td class="right-col">
+              <ul>
+                <li>English</li>
+                <li>French</li>
+                <li>Chinese</li>
+              </ul>
+            </td>    
+          </tr>
+        </table>-->
+      </div>
     </section>
-    <section class="page6">
+    <section class="contact">
       <h2>Contact</h2>
       <hr>
+      <div class="content">
+        
+      </div>
     </section>
   </div>   
   <nav class="main-nav">
@@ -128,7 +200,7 @@
       <a class="link" href="http://blog.yumolun.com" target="_blank">Blog</a>
   </nav>
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="js/onepagescroll.js?version=<?=md5_file('js/onepagescroll.js')?>"></script>
+  <script type="text/javascript" src="js/onepagescroll.min.js?version=<?=md5_file('js/onepagescroll.min.js')?>"></script>
   <script type="text/javascript" src="js/index.js?version=<?=md5_file('js/index.js')?>"></script>
 </body>
 </html>
