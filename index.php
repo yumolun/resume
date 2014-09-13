@@ -23,11 +23,12 @@
   <div class="main"> 
     <section class="page1">
       <div id="avatar">
-        <a href="http://www.yumolun.com">
-          <img src="images/avatar_500.png" alt="Molen">
+        <a onclick="moveTo('.main', 2);">
+          <img src="images/avatar.png" alt="Molen">
         </a>
       </div>
       <h1>Molun Yu</h1>
+      <div class="guide" onclick="moveTo('.main', 2);">Scroll down or press the down arrow key to continue</div>
     </section>
     <section class="education">
       <div class="content">
@@ -51,7 +52,7 @@
         <hr>
         <table>
           <tr>
-            <td class="left-col">2013<br><span style="font-size:20px">Six months</span></td>
+            <td class="left-col">2013<br><span class="month">Six months</span></td>
             <td class="right-col">Internship in CGI France, as an analyst developer
               <ul>
                 <li>Worked in the CRM service to design solutions based on the clients’ requirements</li>
@@ -60,7 +61,7 @@
             </td>    
           </tr>
           <tr>
-            <td class="left-col">2011<br><span style="font-size:20px">Two months</span></td>
+            <td class="left-col">2011<br><span class="month">Two months</span></td>
             <td class="right-col">Internship at ENSCCF in France, as a programmer
                 <ul>
                 <li>Migrated the school website from SPIP 1.9 to SPIP 2.0</li>
@@ -152,45 +153,12 @@
             <div>Project management</div>
           </div>
         </div>
-        <!--<table>
-          <tr>
-            <td class="left-col">Computing</td>
-            <td class="right-col">
-              <ul>
-                <li>HTML, CSS, JavaScript, C#, Java, PHP</li>
-                <li>MySQL, Oracle SQL Developer, Microsoft SQL Server</li>
-                <li>Windows, Linux</li>
-              </ul>
-            </td>    
-          </tr>
-          <tr>
-            <td class="left-col">Networking and Telecommunications</td>
-            <td class="right-col">
-              <ul>
-                <li>BAN, LAN, MAN, WAN</li>
-                <li>WSN, DTN, Data center</li>
-                <li>Network virtualization</li>
-              </ul>
-            </td>    
-          </tr>
-          <tr>
-            <td class="left-col">Languages</td>
-            <td class="right-col">
-              <ul>
-                <li>English</li>
-                <li>French</li>
-                <li>Chinese</li>
-              </ul>
-            </td>    
-          </tr>
-        </table>-->
       </div>
     </section>
     <section class="contact">
-      <h2>Contact</h2>
-      <hr>
       <div class="content">
-        
+        <h2>Contact</h2>
+        <hr>
       </div>
     </section>
   </div>   
