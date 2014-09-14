@@ -475,6 +475,7 @@ hr{
   .education h2,.pro-exp h2,.projects h2,.skills h2,.contact h2{
     padding-top: 5%;
     font-size: 26px;
+    letter-spacing: 1px;
   }
 
   .content table{
