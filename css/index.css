@@ -445,7 +445,7 @@ hr{
   }
 
   .main section{
-    overflow: visible;
+    overflow: scroll;
   }
   
   #avatar{
