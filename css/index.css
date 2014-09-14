@@ -294,7 +294,36 @@ hr{
   font-size: 20px;
 }
 
+.contact{
+  min-height: 480px;
+}
+
+.contact-details{
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  top: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.contact-details a{
+  color: #fff;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
 @media screen and (min-width: 1600px){
+  .contact-details{
+    position: relative !important;
+    margin-top: 25% !important;
+  }
+
+
   #avatar{
     width: 25% !important;
     padding: 10% 0 10% 0 !important;
@@ -306,7 +335,7 @@ hr{
   }
 
   .education h2,.pro-exp h2,.projects h2,.skills h2,.contact h2{
-    padding: 15% 0 2% 10% !important;
+    padding: 5% 0 2% 10% !important;
     font-size: 60px !important;
   }
 
@@ -316,13 +345,13 @@ hr{
 
 
   .grid{
-    margin: 15% 1% 5% 1% !important;
+    margin: 5% 1% 5% 1% !important;
     width: 30% !important;
   }
 
   .grid-col-3{
     width: 95% !important;
-    margin-top: 10% !important;
+    margin-top: 0 !important;
   }
 }
 
@@ -440,6 +469,10 @@ hr{
 
 @media screen and (max-width: 700px){
 
+  body, html {
+    overflow: scroll;
+  }
+
   .onepage-wrapper {
     height: auto;
   }
@@ -535,5 +568,8 @@ hr{
     font-size: 16px;
   }
 
+  .contact-details{
+    font-size: 18px;
+  }
 
 }

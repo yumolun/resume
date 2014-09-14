@@ -159,6 +159,11 @@
       <div class="content">
         <h2>Contact</h2>
         <hr>
+        <div class="contact-details">
+          <a href="mailto:yumolun@hotmail.com">yumolun@hotmail.com</a><br>
+          <a class="linkedin" href="https://www.linkedin.com/profile/view?id=248297652" target="_blank">LinkedIn</a>
+        </div>
+
       </div>
     </section>
   </div>   
