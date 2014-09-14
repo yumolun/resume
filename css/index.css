@@ -439,22 +439,46 @@ hr{
   }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 700px){
+  .onepage-wrapper {
+    height: auto;
+  }
+  
   #avatar{
     width: 50%;
-    margin: 40% auto 20% auto;
+    margin: 30% auto 20% auto;
   }
   
   .page1 h1{
     font-size: 40px !important;
+    margin-bottom: 20%;
+  }
+  
+  .guide{
+    display: none;
+  }
+  
+  .main-nav{
+    font-size: 14px;
+    overflow: hidden;
+    line-height: 34px;
   }
 
+  .main-nav .first-link{
+    margin: 0px 0px 0px 20px;
+  }
+
+  .main-nav .link{
+    margin: 0px 30px 0px -15px;
+  } 
+
   .education h2,.pro-exp h2,.projects h2,.skills h2,.contact h2{
-    padding-top: 15%;
+    padding-top: 5%;
     font-size: 24px;
   }
 
   .content table{
+    width: 90%;
     font-size: 16px;
   }
 
@@ -462,11 +486,51 @@ hr{
     font-size: 14px;
   }
 
-  .projects table ul{
-    line-height: 1em;
+  .education table{
+    margin: 13% auto 0 auto;
   }
 
   .month{
+    font-size: 10px;
+    line-height: 1em;
+  }
+
+  .skills-details{
+    width: 80%;
+  }
+
+  .grid{
+    width:100%;
+    min-width: 0;
+    margin: 3% auto 3% auto;
+  }
+
+  .grid hr{
+    border: 1px solid #fff;
+  }
+
+  .grid h3{
+    font-size: 18px;
+    padding: 2% 0 2% 0;
+  }
+
+  .grid ul li{
+    margin-left: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 3% 0 3% 0;
+  }
+
+  .grid-col-3{
+    width: 100%;
+    min-width: 0;
+    margin-top: 3%;
+  }
+
+  .grid-col-3 div{
     font-size: 14px;
   }
+
+
 }
