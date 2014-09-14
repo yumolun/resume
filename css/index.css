@@ -439,10 +439,6 @@ hr{
 }
 
 @media screen and (max-width: 700px){
-  body, html {
-    overflow: scroll;
-  }
-
 
   .onepage-wrapper {
     height: auto;
