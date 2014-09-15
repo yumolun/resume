@@ -64,7 +64,7 @@
             <td class="left-col">2011<br><span class="month">Two months</span></td>
             <td class="right-col">Internship at ENSCCF in France, as a programmer
                 <ul>
-                <li>Migrated the school website from SPIP 1.9 to SPIP 2.0</li>
+                <li>Migrated the university website from SPIP 1.9 to SPIP 2.0</li>
                 <li>Updated website plugins by using HTML, CSS, PHP, JavaScript and MySQL</li>
               </ul>
             </td>    

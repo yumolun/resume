@@ -327,7 +327,7 @@ function onePageScroll(element, options) {
 	    }
       
       
-
+      /*
 			_swipeEvents(el);
 			document.addEventListener("swipeDown",  function(event){
 			  if (!_hasClass(body, "disabled-onepage-scroll")) event.preventDefault();
@@ -336,7 +336,7 @@ function onePageScroll(element, options) {
 			document.addEventListener("swipeUp", function(event){
 				if (!_hasClass(body, "disabled-onepage-scroll")) event.preventDefault();
 				moveDown(el);
-			});
+			});*/
       
       document.addEventListener('mousewheel', _mouseWheelHandler);
   		document.addEventListener('DOMMouseScroll', _mouseWheelHandler);

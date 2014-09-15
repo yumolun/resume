@@ -56,7 +56,7 @@ a {
 
 
 /*****************************
-home
+Fonts
 *****************************/
 @font-face {
   font-family: MyriadPro;
@@ -72,6 +72,10 @@ home
   src: url("../fonts/OpenSans-Light.ttf");
 }
 
+
+/*****************************
+Navigation
+*****************************/
 .main-nav{
   width: 100%;
   height: 34px;
@@ -100,6 +104,10 @@ home
   cursor: pointer;
 }
 
+/*****************************
+First page
+*****************************/
+
 #avatar{
   width: 20%;
   position: relative;
@@ -121,6 +129,28 @@ hr{
   background: #2980b9; 
 }
 
+
+.guide{
+  width: 100%;
+  height: 34px;
+  font-size: 14px;
+  font-family: 'OpenSans',sans-serif;
+  bottom: 0;
+  left: 0;
+  position: absolute;  
+  color: #fff;
+  background: #000;
+  opacity: 0.4;
+  line-height: 34px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+
+/****************************************************
+Education, professional experience, projects, skills
+*****************************************************/
 .education{
   background: #27ae60; 
 }
@@ -149,22 +179,6 @@ hr{
   font-weight: 100;
 }
 
-.guide{
-  width: 100%;
-  height: 34px;
-  font-size: 14px;
-  font-family: 'OpenSans',sans-serif;
-  bottom: 0;
-  left: 0;
-  position: absolute;  
-  color: #fff;
-  background: #000;
-  opacity: 0.4;
-  line-height: 34px;
-  text-align: center;
-  cursor: pointer;
-  letter-spacing: 1px;
-}
 
 .content{
   max-width: 1440px;
@@ -236,6 +250,10 @@ hr{
   margin-bottom: 2%;
 }
 
+
+/*****************************
+Skills details
+*****************************/
 .skills table{
   margin: 2% auto 0 auto;
 }
@@ -294,6 +312,10 @@ hr{
   font-size: 20px;
 }
 
+/*****************************
+Contact
+*****************************/
+
 .contact{
   min-height: 480px;
 }
@@ -316,6 +338,9 @@ hr{
   text-align: center;
 }
 
+/*****************************
+Responsive design
+*****************************/
 
 @media screen and (min-width: 1600px){
   .contact-details{
@@ -438,7 +463,7 @@ hr{
   }
 
   .pro-exp table{
-    margin: 10% auto 0 auto;
+    margin: 8% auto 0 auto;
   }
 
   .pro-exp .right-col{
@@ -446,7 +471,7 @@ hr{
   }
 
   .projects table{
-    margin: 6% auto 0 auto;
+    margin: 3% auto 0 auto;
   }
 
   .projects .right-col{
@@ -458,7 +483,7 @@ hr{
   }
 
   .grid{
-    margin: 5% 1% 3% 1%;
+    margin: 3% 1% 3% 1%;
   }
 
   .grid-col-3{
