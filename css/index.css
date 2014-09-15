@@ -541,19 +541,10 @@ Responsive design
     font-size: 18px;
   }
 
-  .content table ul{
-    font-size: 16px;
-  }
-
   .education table{
     margin: 25% auto 0 auto;
   }
 
-  .month{
-    font-size: 12px;
-    line-height: 1em;
-  }
-  
   .pro-exp table{
     margin: 25% auto 0 auto;
   }
@@ -585,7 +576,6 @@ Responsive design
   }
 
   .grid h3{
-    font-size: 20px;
     padding: 2% 0 2% 0;
   }
 
@@ -593,7 +583,6 @@ Responsive design
     margin-left: 0;
     list-style: none;
     text-align: center;
-    font-size: 16px;
     padding: 3% 0 3% 0;
   }
 
@@ -601,14 +590,6 @@ Responsive design
     width: 100%;
     min-width: 0;
     margin-top: 4%;
-  }
-
-  .grid-col-3 div{
-    font-size: 16px;
-  }
-
-  .contact-details{
-    font-size: 18px;
   }
 
 }
