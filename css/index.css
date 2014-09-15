@@ -492,7 +492,7 @@ Responsive design
   }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
 
   body, html {
     overflow: scroll;
