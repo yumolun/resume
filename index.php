@@ -173,7 +173,7 @@
       <a class="link" href="http://blog.yumolun.com" target="_blank">Blog</a>
   </nav>
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="js/onepagescroll.min.js?version=<?=md5_file('js/onepagescroll.min.js')?>"></script>
+  <script type="text/javascript" src="js/onepagescroll.js?version=<?=md5_file('js/onepagescroll.js')?>"></script>
   <script type="text/javascript" src="js/index.js?version=<?=md5_file('js/index.js')?>"></script>
 </body>
 </html>
