@@ -535,11 +535,11 @@ Responsive design
   }
 
   .education table{
-    margin: 25% auto 0 auto;
+    margin: 20% auto 0 auto;
   }
 
   .pro-exp table{
-    margin: 25% auto 0 auto;
+    margin: 20% auto 0 auto;
   }
 
   .pro-exp .right-col{
@@ -547,7 +547,7 @@ Responsive design
   }
 
   .projects table{
-    margin: 20% auto 0 auto;
+    margin: 15% auto 0 auto;
   }
 
   .projects .right-col{
@@ -560,7 +560,7 @@ Responsive design
 
   .grid{
     width:40%;
-    margin: 0 auto 3% auto;
+    margin: 3% auto 3% auto;
   }
 
   .grid hr{
