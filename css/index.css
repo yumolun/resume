@@ -524,7 +524,13 @@ Responsive design
     margin: 0px 15px 0px 0px;
   } 
 
-  .education h2,.pro-exp h2,.projects h2,.skills h2,.contact h2{
+  .skills h2{
+    padding-top: 10%;
+    font-size: 26px;
+    letter-spacing: normal;
+  }
+
+  .education h2,.pro-exp h2,.projects h2,.contact h2{
     padding-top: 20%;
     font-size: 26px;
     letter-spacing: normal;
@@ -540,7 +546,7 @@ Responsive design
   }
 
   .education table{
-    margin: 30% auto 0 auto;
+    margin: 25% auto 0 auto;
   }
 
   .month{
@@ -549,7 +555,7 @@ Responsive design
   }
   
   .pro-exp table{
-    margin: 30% auto 0 auto;
+    margin: 25% auto 0 auto;
   }
 
   .pro-exp .right-col{
