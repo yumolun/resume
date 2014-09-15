@@ -575,8 +575,7 @@ Responsive design
   }
 
   .grid{
-    width:26%;
-    min-width: 0;
+    width:40%;
     margin: 0 auto 3% auto;
   }
 
