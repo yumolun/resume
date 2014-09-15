@@ -497,7 +497,7 @@ Responsive design
 
   #avatar{
     width: 40%;
-    padding: 35% 0 20% 0;
+    padding: 25% 0 20% 0;
     margin: 0 auto;
   }
   
@@ -535,11 +535,11 @@ Responsive design
   }
 
   .education table{
-    margin: 20% auto 0 auto;
+    margin: 15% auto 0 auto;
   }
 
   .pro-exp table{
-    margin: 20% auto 0 auto;
+    margin: 15% auto 0 auto;
   }
 
   .pro-exp .right-col{
@@ -547,7 +547,7 @@ Responsive design
   }
 
   .projects table{
-    margin: 15% auto 0 auto;
+    margin: 10% auto 0 auto;
   }
 
   .projects .right-col{
