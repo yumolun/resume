@@ -524,13 +524,7 @@ Responsive design
     margin: 0px 15px 0px 0px;
   } 
 
-  .skills h2{
-    padding-top: 6%;
-    font-size: 26px;
-    letter-spacing: normal;
-  }
-
-  .education h2,.pro-exp h2,.projects h2,.contact h2{
+  .education h2,.pro-exp h2,.projects h2,.skills h2,.contact h2{
     padding-top: 20%;
     font-size: 26px;
     letter-spacing: normal;
@@ -538,7 +532,6 @@ Responsive design
 
   .content table{
     width: 90%;
-    font-size: 18px;
   }
 
   .education table{
