@@ -51,12 +51,21 @@
         <h2>Professional experience</h2>
         <hr>
         <table>
+        	<tr>
+            <td class="left-col">2015<br><span class="month">From Dec. 2014</span></td>
+            <td class="right-col">C# engineer at Davidson EST in Strasbourg
+              <ul>
+                <li>Work in the Euro-information Développement of Crédit Mutuel</li>
+                <li>Development, tests and maintenance of the payment, prepaid and bill system by using C#, Oracle SQL</li>
+              </ul>
+            </td>    
+          </tr>
           <tr>
             <td class="left-col">2013<br><span class="month">Six months</span></td>
-            <td class="right-col">Internship in CGI France, as an analyst developer
+            <td class="right-col">Internship at CGI France, as an analyst developer
               <ul>
-                <li>Worked in the CRM service to design solutions based on the clients’ requirements</li>
-                <li>Developed, tested and maintained softwares by using Pivotal, Oracle SQL Developer, Microsoft SQL Server, C#, VB Script, PHP and JavaScript</li>
+                <li>Work in the CRM service to design solutions based on the clients’ requirements</li>
+                <li>Development, tests and maintenance of softwares by using Pivotal, Oracle SQL Developer, Microsoft SQL Server, C#, VB Script, PHP and JavaScript</li>
               </ul>
             </td>    
           </tr>
@@ -64,8 +73,8 @@
             <td class="left-col">2011<br><span class="month">Two months</span></td>
             <td class="right-col">Internship at ENSCCF in France, as a programmer
                 <ul>
-                <li>Migrated the university website from SPIP 1.9 to SPIP 2.0</li>
-                <li>Updated website plugins by using HTML, CSS, PHP, JavaScript and MySQL</li>
+                <li>Migration of the university website from SPIP 1.9 to SPIP 2.0</li>
+                <li>Update of website plugins by using HTML, CSS, PHP, JavaScript and MySQL</li>
               </ul>
             </td>    
           </tr>
